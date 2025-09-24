@@ -2,14 +2,51 @@ package conta_bancaria;
 
 import java.util.Scanner;
 
+import conta_bancaria.model.Conta;
+import conta_bancaria.model.ContaCorrente;
+import conta_bancaria.model.ContaPoupanca;
 import conta_bancaria.util.Cores;
 
 public class Menu {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		
 		int opcao;
+		
+		Conta c1 = new Conta(1, 123, 1, "Elisa Maria", 10000.0f);
+		c1.visualizar();
+		c1.setSaldo(15000.0f);
+		c1.setTitular("Minatozaki Sana");
+		c1.visualizar();
+		
+		c1.sacar(12000.0f);
+		c1.visualizar();
+		
+		c1.sacar(120000.0f);
+		c1.visualizar();
+		
+		c1.depositar(5000.0f);
+		c1.visualizar();
+		
+		Conta c3 = new Conta(); // Depois poderia preencher outros parâmetros com c3.();
+		c3.setAgencia(123);
+		
+		// Instanciar objetos da Classe ContaCorrente
+		
+		ContaCorrente cc1 = new ContaCorrente(3, 456, 1, "Bianca Silva", 1000000.00f, 100000.00f);
+		
+		cc1.visualizar();
+		
+		System.out.println(cc1.sacar(2000000.00f));
+		cc1.visualizar();
+		
+		// Instanciar objetos da Classe ContaPoupanca
+		ContaPoupanca conta1 = new ContaPoupanca(5, 123, 1, "Sebastião Aparecido", 1000000.0f, 20);
+		conta1.visualizar();
+		
+		// Polimorfismo - sobreescrever um método ('visualizar' nesse caso)
+		
+		
 		
 		do {
 			System.out.println(Cores.TEXT_CYAN_BOLD + "**********************************************");
