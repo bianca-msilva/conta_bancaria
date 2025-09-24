@@ -5,7 +5,6 @@
 <div align="center">
 	<img src="https://i.imgur.com/IaD4lwg.png" title="source: imgur.com" width="35%"/>
 </div>
-
 <br />
 
 <div align="center">
@@ -16,7 +15,6 @@
   <img src="https://img.shields.io/github/issues/rafaelq80/aulas_java_t82?style=flat-square" />
   <img src="https://img.shields.io/github/issues-pr/rafaelq80/aulas_java_t82?style=flat-square" />
 </div>
-
 
 ------
 
@@ -119,7 +117,6 @@ ContaPoupanca --> Conta
    <img src="https://i.imgur.com/MFK9yXB.png" title="source: imgur.com" width="90%"/>
 </div>
 
-
 <br />
 
 ## 5. Requisitos
@@ -139,10 +136,10 @@ Para executar os códigos localmente, você precisará de:
 
 ### 6.1. Importando o Projeto
 
-1. Clone o repositório do Projeto [Conta Bancária](https://github.com/rafaelq80/conta_bancaria_t82) dentro da pasta do *Workspace* do Eclipse/STS
+1. Clone o repositório do Projeto [Conta Bancária](https://github.com/bianca-msilva/conta_bancaria) dentro da pasta do *Workspace* do Eclipse/STS
 
 ```bash
-git clone https://github.com/rafaelq80/conta_bancaria_t82.git
+git clone https://github.com/bianca-msilva/conta_bancaria
 ```
 
 2. **Abra o Eclipse/STS** e selecione a pasta do *Workspace* onde você clonou o repositório do projeto
@@ -180,5 +177,5 @@ Este repositório é parte de um projeto educacional, mas contribuições são s
 
 <br />
 
-Desenvolvido por [**Rafael**](https://github.com/rafaelq80)
+Desenvolvido por [**Bianca Maria**](https://github.com/bianca-msilva)
 Para dúvidas, sugestões ou colaborações, entre em contato via GitHub ou abra uma issue!
