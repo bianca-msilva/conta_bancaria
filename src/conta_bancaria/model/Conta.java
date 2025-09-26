@@ -80,12 +80,9 @@ public abstract class Conta {
 		public void visualizar() {
 			String tipo = "";
 			switch(this.tipo) {
-			case 1:
-				tipo = "Conta Corrente";
-				break;
-			case 2:
-				tipo = "Conta Poupança";
-				break;
+			case 1 -> tipo = "Conta Corrente";
+			case 2 -> tipo = "Conta Poupança";
+			default -> tipo = "Desconhecido";
 			}
 			
 			System.out.println("\n********************************************");
